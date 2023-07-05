@@ -31,7 +31,7 @@
     <form action="" method="post">
         <fieldset>
              <legend>indentificação</legend>
-            <p>
+            <p>text
                 <label for="nome">nome:</label>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome competo" maxlength="300">
             </p>
@@ -73,5 +73,37 @@
         <footer id="frango">
                 <img src="img/grin.png">
         </footer>
+        <fieldset>
+            <legend>Endereço</legend>
+         <P>
+            <label for="rua">Rua: </label>
+            <input type="text" id="rua" placeholder="digite o nome da rua" maxlength="300">
+        </P>
+        <p>
+            <label for="numero">Numero</label>
+            <input type="number" id="numero" placeholder="numero da casa" minlength="0" maxlength="9999">t
+            textext
+        </p>
+        <p>
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro">
+        </p>
+        <p>
+            <label for="estado">estado</label>
+            <select id="estado">
+                <optgroup label="Região sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do sul</option>
+
+                </optgroup>
+            </select>
+        </p>
+        </fieldset>
 </body>
 </html>
